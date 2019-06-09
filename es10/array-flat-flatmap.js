@@ -1,7 +1,7 @@
-const a = [1, [2, 3], 4, [5, 6]]
+const a = [1, [2, 3], 4, [5, 6]];
 a.flat();
 
-const b = [1, [2,[3,[4]]],[5,[6]],7,[8,[9,[10]]]]
-b.flat(3)
+const b = [1, [2,[3,[4]]],[5,[6]],7,[8,[9,[10]]]];
+b.flat(3);
 
-['Bem-vindo'].flatMap(item => [...item])
+['Bem-vindo'].flatMap(item => [...item]);
